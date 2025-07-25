@@ -13,7 +13,7 @@ import GiftStatusManagement from './sections/GiftStatusManagement';
 import MockVerification from './sections/MockVerification';
 import EmailConfiguration from './sections/EmailConfiguration';
 import FulfillmentConfiguration from './sections/FulfillmentConfiguration';
-import ApiStatus from './sections/ApiStatus';
+import ApiStatus from './sections/APIStatus';
 
 
 type Section = 
