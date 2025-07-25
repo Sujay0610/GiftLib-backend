@@ -19,7 +19,7 @@ const LoginPage: React.FC = () => {
   const [createUserForm, setCreateUserForm] = useState({
     fullName: '',
     email: '',
-    phone: '',
+    phone?: '',
     address: {
       line1: '',
       line2: '',
@@ -102,7 +102,7 @@ const LoginPage: React.FC = () => {
       const response = await apiService.createUser({
         full_name: createUserForm.fullName,
         email: createUserForm.email,
-        phone?: createUserForm.phone,
+        phone: createUserForm.phone,
         address: createUserForm.address
       });
       
