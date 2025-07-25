@@ -3,17 +3,17 @@
 import React, { useState } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { formatApiKey } from '@/lib/utils';
-import InitiateGift from 'components/sections/InitiateGift';
-import GiftManagement from 'components/sections/GiftManagement';
-import Statistics from 'components/sections/Statistics';
-import BulkOperations from 'components/sections/BulkOperations';
-import ExcelOperations from 'components/sections/ExcelOperations';
-import CampaignManagement from 'components/sections/CampaignManagement';
-import GiftStatusManagement from 'components/sections/GiftStatusManagement';
-import MockVerification from 'components/sections/MockVerification';
-import EmailConfiguration from 'components/sections/EmailConfiguration';
-import FulfillmentConfiguration from 'components/sections/FulfillmentConfiguration';
-import ApiStatus from 'components/sections/ApiStatus';
+import InitiateGift from './sections/InitiateGift';
+import GiftManagement from './sections/GiftManagement';
+import Statistics from './sections/Statistics';
+import BulkOperations from './sections/BulkOperations';
+import ExcelOperations from './sections/ExcelOperations';
+import CampaignManagement from './sections/CampaignManagement';
+import GiftStatusManagement from './sections/GiftStatusManagement';
+import MockVerification from './sections/MockVerification';
+import EmailConfiguration from './sections/EmailConfiguration';
+import FulfillmentConfiguration from './sections/FulfillmentConfiguration';
+import ApiStatus from './sections/ApiStatus';
 
 
 type Section = 
